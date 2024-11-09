@@ -5,12 +5,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/home")
-public class HomeController {
+@RequestMapping("/api/testing")
+public class TestController {
 	
 	@GetMapping("/")
-	public String getHome()
+	public String getTester()
 	{
-		return "This is home";
+		return "this was the testing";
 	}
+
 }
